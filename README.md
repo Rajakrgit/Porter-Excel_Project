@@ -1,14 +1,18 @@
 # Porter-Excel_Project
-This project was Porter Delivery Time Analysis, where the main objective was to understand the factors associated with delivery delays and identify opportunities to improve delivery efficiency.
+I worked on a delivery analytics project focused on understanding delivery times and identifying opportunities to improve operational efficiency using Microsoft Excel.
 
-The dataset contained approximately 197,000 delivery records, including information about markets, restaurant categories, order timestamps, delivery times, order size, and delivery partner availability.
+The dataset contained approximately 197,000 order records, including order creation timestamps, actual delivery timestamps, market information, restaurant categories, order size, order value, and courier availability.
 
-I used Microsoft Excel to explore the dataset, calculate delivery metrics, and compare performance across different markets, days of the week, restaurant categories, and order protocols. PivotTables, formulas, and charts are useful techniques for summarizing this type of data.
+My objective was to analyze delivery performance across different markets, restaurant categories, days, and hours and identify areas that required further investigation.
 
-One important finding was that Market 1 had an average delivery time of approximately 53.67 minutes, which was the highest among the six identified markets. I also found that Sunday had the highest average delivery time by day of the week, at approximately 51.25 minutes.
+I used Excel formulas, PivotTables, conditional formatting, and charts to summarize the data and compare delivery performance across different groups.
 
-Another challenge was handling missing values and unusually large delivery durations. I learned that these issues can affect analytical results, so it is important to validate the data and compare average delivery time with the median.
+I also recalculated delivery duration from the source timestamps and examined data-quality issues, including missing values and unusually long delivery durations.
 
-Based on the findings, I would recommend investigating markets with longer delivery times, reviewing delivery partner availability during demanding periods, examining restaurant categories with higher average delivery durations, and building an interactive dashboard to monitor operational performance.
+The analysis showed that the median delivery duration was approximately 44 minutes, while the average was approximately 48 minutes. I also calculated the proportion of timestamp-valid orders delivered within 30 minutes.
 
-Overall, this project improved my analytical skills and helped me understand how data can be used to identify operational patterns and support better business decisions.
+Based on these findings, I recommended reviewing peak-hour staffing, market-level performance, restaurant pickup processes, and unusually long deliveries.
+
+Finally, I created an Excel dashboard to present the key metrics, comparisons, and recommendations in a format that operations stakeholders could use to prioritize further investigation.
+
+This project helped me strengthen my Excel analysis and dashboard development skills and understand how operational data can support better business decisions.
